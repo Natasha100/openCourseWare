@@ -39,8 +39,8 @@ public class Marathon {
 	
 		Marathon marathon = new Marathon(names, times);
 		
-		Runner firstPlace = marathon.getNthPlace(2);
-		System.out.println(firstPlace.getName());
+		Runner secondPlace = marathon.getNthPlace(2);
+		System.out.println(secondPlace.getName());
 	}
 	
 	
